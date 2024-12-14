@@ -127,7 +127,7 @@ h1 {
 
 .aligned-text_center {
    text-align: center;
-   margin-top: 5px;
+   margin-top: 7px;
 }
 
 .aligned-text_center_span {
@@ -136,7 +136,9 @@ h1 {
 
 .aligned-text_right {
    text-align: right;
+   margin-left: 580px;
    margin-top: 5px;
+   
 }
 
 .aligned-text_right_span {
@@ -217,7 +219,6 @@ h2 {
    display: flex;
    gap: 25px;
    list-style: none;
-   /* position: relative; */
 }
 
 .card {
@@ -228,6 +229,14 @@ h2 {
    background-position: center;
    margin-top: 27px;
    position: relative;   
+}
+
+.card_text_director {
+   display: block;
+}
+
+.index {
+   z-index: 1;
 }
 
 /* ul {
