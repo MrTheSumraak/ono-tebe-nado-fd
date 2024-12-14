@@ -21,6 +21,7 @@
    margin-left: 26.52px;
    padding: 0;
    font-family: Raleway, sans-serif;
+   font-weight: 400;
    font-size: 18px;
    text-decoration: none;
 }
@@ -136,7 +137,6 @@ h1 {
 .aligned-text_right {
    text-align: right;
    margin-top: 5px;
-   
 }
 
 .aligned-text_right_span {
@@ -200,7 +200,6 @@ main {
    min-height: 1433px;
    margin-top: 179px;
    margin-inline: 24px;
-
 }
 
 h2 {
@@ -303,7 +302,12 @@ section > p {
    font-weight: 400;
    font-size: 20px;
    margin-left: 40px;
-   text-decoration: underline;
+   text-decoration: none;
+}
+
+.wrapper_link_lots a:hover {
+   cursor: pointer;
+   text-decoration: underline black;;
 }
 
 .about {
@@ -312,7 +316,6 @@ section > p {
    margin-top: 100px;
    display: grid;
    grid-template-columns: 334px 2fr;
-
 }
 
 .about__column {
@@ -342,6 +345,7 @@ h3 {
    font-size: 40px;
    text-transform: uppercase;
    margin-left: 25px;
+   margin-top: 5px;
 }
 
 .about__text_wrapper {
@@ -352,11 +356,10 @@ h3 {
    font-family: Raleway, sans-serif;
    font-weight: 400;
    font-size: 20px;
-}
-
-.about_rext {
-   display: block;
-   margin-top: 24px;
+   display: flex;
+   flex-direction: column;
+   gap: 24px;
+   letter-spacing: 2%;
 }
 
 .footer {
@@ -372,7 +375,7 @@ h3 {
    list-style: none;
    width: 300px;
    height: 98px;
-   font-family: Raleway-Regular, sans-serif;
+   font-family: Raleway, sans-serif;
    font-weight: 400;
    font-size: 18px;
    line-height: 21.13px;
