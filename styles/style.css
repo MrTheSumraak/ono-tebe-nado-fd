@@ -72,10 +72,9 @@ a {
    line-height: 24.3px;
 }
 
-.header_address {
+.address {
    display: block;
 }
-
 
 .cover {
    width: 1100px;
@@ -221,6 +220,11 @@ h2 {
    list-style: none;
 }
 
+main a:hover {
+   cursor: pointer;
+   text-decoration: underline #FFF;
+}
+
 .card {
    width: 334px;
    max-height: 563px;
@@ -233,6 +237,10 @@ h2 {
 
 .card_text_director {
    display: block;
+}
+
+.card_link {
+   text-decoration: none;
 }
 
 .index {

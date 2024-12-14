@@ -34,10 +34,11 @@
           <a href="tel:+9 999 555 5555" class="tel">+9 999 555 5555</a>
           <a href="mailto:info@sobaka.ge ">info@sobaka.ge</a>
           <p>
-            <span class="header_address">наб. Принсенграхт 263-</span> 265,
-            Амстердам
+            <span class="address">наб. Принсенграхт 263-</span> 265, Амстердам
           </p>
         </address>
+
+        <!-- секция "оно тебе надо" -->
       </div>
       <div class="cover">
         <div class="overlay"></div>
@@ -71,53 +72,62 @@
         </div>
       </div>
     </header>
+
+    <!-- секция основного контента "main" -->
+
     <main>
-      <h2>лоты</h2>
-      <ul class="lots">
-        <li class="card">
-          <section>
-            <div class="overlay"></div>
-            <a href="#" class="index">Фильм режиссёра, который бросил киношколу</a>
-            <p class="card_text_director">
-              Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
-              ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
-            </p>
-          </section>
-        </li>
-        <li class="card card_book">
-          <section>
-            <div class="overlay"></div>
-            <a href="#"
-              >Книга, где описан один скучный день из жизни рекламного агента</a
-            >
-            <p class="card_text_cinema">
-              Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
-              переходами на древнеанглийский. В ней одновременно рассказывается
-              о 16 июня 1904 года и об истории литературы, начиная с античных
-              времён. И это всё накладывается на эпическую поэму Гомера. Сколько
-              бы вы поставили на «Улисса» Джеймса Джойса?
-            </p>
-          </section>
-        </li>
-        <li class="card card_picture">
-          <section>
-            <div class="overlay"></div>
-            <a href="#"
-              >Картина, которую повторит даже 5-летний сын маминой подруги</a
-            >
-            <p class="card_text_picture">
-              Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то
-              похожее на инфузорию-туфельку. Никаких полей, лесов, котиков...
-              Сколько бы вы на такое поставили, если бы не знали, что это — одна
-              из революционных работ Кандинского?
-            </p>
-          </section>
-        </li>
-        <div class="wrapper_link_lots">
-          <a href="#" class="link_lots">посмотреть больше</a>
-        </div>
-      </ul>
-      <li class="about">
+      <section>
+        <h2>лоты</h2>
+        <ul class="lots">
+          <li class="card">
+            <section>
+              <div class="overlay"></div>
+              <a href="#" class="index card_link"
+                >Фильм режиссёра, который бросил киношколу</a
+              >
+              <p class="card_text_director">
+                Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+              </p>
+            </section>
+          </li>
+          <li class="card card_book">
+            <section>
+              <div class="overlay"></div>
+              <a href="#" class="card_link"
+                >Книга, где описан один скучный день из жизни рекламного
+                агента</a
+              >
+              <p class="card_text_cinema">
+                Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
+                переходами на древнеанглийский. В ней одновременно
+                рассказывается о 16 июня 1904 года и об истории литературы,
+                начиная с античных времён. И это всё накладывается на эпическую
+                поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса
+                Джойса?
+              </p>
+            </section>
+          </li>
+          <li class="card card_picture">
+            <section>
+              <div class="overlay"></div>
+              <a href="#" class="card_link"
+                >Картина, которую повторит даже 5-летний сын маминой подруги</a
+              >
+              <p class="card_text_picture">
+                Ну действительно, там линия, тут кружочек, а здесь и вовсе
+                что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
+                котиков... Сколько бы вы на такое поставили, если бы не знали,
+                что это — одна из революционных работ Кандинского?
+              </p>
+            </section>
+          </li>
+          <div class="wrapper_link_lots">
+            <a href="#" class="link_lots">посмотреть больше</a>
+          </div>
+        </ul>
+      </section>
+      <section class="about">
         <div class="about__column">
           <img
             src="./images/logo-white.svg"
@@ -146,15 +156,17 @@
             </p>
           </div>
         </div>
-      </li>
+      </section>
     </main>
+
+    <!-- footer -->
+
     <footer class="footer">
       <address class="contacts">
         <a href="tel:+9 999 555 5555" class="tel">+9 999 555 5555</a>
         <a href="mailto:info@sobaka.ge ">info@sobaka.ge</a>
         <p>
-          <span class="header_address">наб. Принсенграхт 263-</span> 265,
-          Амстердам
+          <span class="address">наб. Принсенграхт 263-</span> 265, Амстердам
         </p>
       </address>
       <ul class="navigation_footer">
@@ -168,23 +180,23 @@
           <a href="#">об аукционе</a>
         </li>
       </ul>
-      <ui class="footer__social-list">
+      <ul class="footer__social-list">
         <li>
-          <a href="#"
+          <a href="#" target="_blank"
             ><img src="./images/yt.svg" class="img_link" alt="логотип"
           /></a>
         </li>
         <li>
-          <a href="#"
+          <a href="#" target="_blank"
             ><img src="./images/vk.svg" class="img_link" alt="логотип"
           /></a>
         </li>
         <li>
-          <a href="#"
+          <a href="#" target="_blank"
             ><img src="./images/pinterest.svg" class="img_link" alt="логотип"
           /></a>
         </li>
-      </ui>
+      </ul>
     </footer>
   </body>
 </html>
