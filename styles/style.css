@@ -53,6 +53,7 @@ a {
    width: 240.52px;
    line-height: 24.3px;
    font-family: Raleway, sans-serif;
+   font-style: normal;
    font-weight: 400;
    font-size: 18px;
    line-height: 24.3px;
@@ -123,6 +124,10 @@ a {
    letter-spacing: 60px;
 }
 
+.no_letter_spacing {
+   letter-spacing: 0;
+}
+
 .aligned-text_center {
    text-align: center;
    margin-top: 7px;
@@ -130,7 +135,6 @@ a {
 
 .aligned-text_right {
    text-align: right;
-   margin-left: 580px;
    margin-top: 5px;
 }
 
@@ -139,33 +143,46 @@ a {
    display: flex;
    justify-content:space-between;
    align-items: flex-end;
-   z-index: 2;
+   z-index: 1;
    margin-top: 125px;
 }
 
-.cover__description {
+.cover__description_text {
+   display: inline-block;
+   margin-bottom: 0;
+   margin-left: 78px;
+   margin-bottom: 62px;
    font-family: Raleway, sans-serif;
    font-weight: 400;
    font-size: 22px;
+   font-style: normal;
    color: #fff;
-   word-spacing: 24px;
+   word-spacing: 0.85em;
    text-transform: uppercase;
 }
 
 .paragraph_inline_block {
    display: inline-block;
-   /* width: 637px; */
    margin-bottom: 0;
    margin-left: 78px;
    margin-bottom: 62px;
+
 }
 
-.description-text_word {
-   word-spacing: 15px;
+.text_word_spacing {
+   word-spacing: 25px;
 }
+
+.word_spacing_span {
+   word-spacing: 20px;
+}
+
+/* .description-text_word {
+   word-spacing: 15px;
+} */
 
 .description-text_word_spacing {
-   word-spacing: 10px;
+   letter-spacing: 60px;
 }
 
 .bet-button__text {
@@ -186,9 +203,9 @@ a {
 }
 
 main {
-   width: 1052px;
-   margin-top: 179px;
-   margin-inline: 24px;
+   width: 1100px;
+   margin-top: 96px;
+   /* margin-inline: 24px; */
 }
 
 h2 {
@@ -198,12 +215,17 @@ h2 {
    margin-left: 40px;
 }
 
-.lots {
+.lots{
+   margin-top: 179px;
+   margin-inline: 24px;
+}
+
+
+.content_lots {
    width: 1052px;
    margin-top: 27px;
    display: flex;
    flex-direction: row;
-   justify-content: space-between;
    gap: 25px;
    flex-wrap: wrap;
 }
@@ -287,6 +309,7 @@ main a {
    margin-top: 146px;
    display: grid;
    grid-template-columns: 334px 2fr;
+   margin-inline: 24px;
 }
 
 .about__column {
@@ -325,11 +348,12 @@ h3 {
    margin-left: 23px;
    font-family: Raleway, sans-serif;
    font-weight: 400;
+   font-style: normal;
    font-size: 20px;
+   line-height: 24px;
    display: flex;
    flex-direction: column;
    gap: 24px;
-   letter-spacing: 2%;
 }
 
 .footer {
@@ -338,6 +362,7 @@ h3 {
    margin-inline: 50px;
    display: flex;
    justify-content: space-between;
+   margin-bottom: 88px;
 }
 
 
